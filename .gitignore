@@ -1,0 +1,57 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environments
+env/
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS / Misc
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Cache
+.cache/
+*.sqlite3
+
+# Pip
+pip-log.txt
+
+# LangChain and LLM agents (if cached)
+*.json
+agents_output/
+agent_logs/
+sessions/
+
+# If using Streamlit
+.streamlit/
+
+# If using LangChain + LLM API keys
+*.env
+.env*
+
+# If using Hugging Face or any other local cache
+huggingface/
+
+# Build folders
+build/
+dist/
+*.egg-info/
