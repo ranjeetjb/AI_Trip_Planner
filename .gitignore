@@ -13,6 +13,7 @@ env/
 venv/
 .venv/
 env
+.env
 
 # VS Code
 .vscode/
@@ -47,7 +48,7 @@ sessions/
 
 # If using LangChain + LLM API keys
 *.env
-.env*
+.env
 
 # If using Hugging Face or any other local cache
 huggingface/
